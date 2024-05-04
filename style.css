@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+}
+
+.nav-logo {
+    height: 36px;
+    width: 52px;
+    background-image: url("Myntra_Logo.png");
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-font {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 512px;
+    height: 40px;
+    border-radius: 4px 4px 4px 4px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.search-icon {
+    background-color: #f5f5f6;
+    width: 40px;
+    height: 22px;
+    text-align: center;
+    border-right: none;
+    align-items: center;
+    color: #696e79;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid #f5f5f6;
+    padding: 12px 0 5px;
+}
+
+.nav-input {
+    width: 462px;
+    height: 22px;
+    color: #696e79;
+
+    font-size: 14px;
+    padding: 8px 10px 10px;
+    margin: 0;
+    outline: 0;
+    text-align: left;
+    border: none;
+    align-items: center;
+    border-radius: 0 4px 4px 0;
+    background: #f5f5f6;
+
+}
+
+
+.nav-box4 {
+    display: flex;
+    font-size: 14px;
+    height: 40px;
+    width: 170px;
+    margin: 20px 0 0 10px;
+    border: none;
+    margin-right: 0;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+
+.hero1 {
+    background-image: url(hero1.jpg);
+    height: 140px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+.hero {
+    display: flex;
+}
+
+.hero2 {
+    background-image: url(hero2.webp);
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hero21 {
+    background-image: url(hero2.1.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hero3 {
+    background-image: url(hero3.webp);
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    margin-top: 0;
+}
+
+.hero44 {
+    display: flex;
+}
+
+.hero5 {
+    background-image: url(hero5.webp);
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    margin-top: 0;
+
+}
+
+.hero51 {
+    background-image: url(hero5.1.webp);
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    margin-top: 0;
+}
+
+.hero6 {
+    background-image: url(hero6.webp);
+    width: 100%;
+    height: 120px;
+    background-size: contain;
+    margin-top: 0;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.r1 {
+    background-image: url(1.webp);
+    height: 160px;
+    width: 120px;
+    background-size: contain;
+
+}
+
+.r2 {
+    background-image: url(2.webp);
+    height: 160px;
+    width: 120px;
+    background-size: contain;
+
+}
+
+.r3 {
+    background-image: url(3.webp);
+    height: 160px;
+    width: 120px;
+    background-size: contain;
+
+}
+
+.r4 {
+    background-image: url(4.webp);
+    height: 160px;
+    width: 120px;
+    background-size: contain;
+
+}
+
+.r5 {
+    background-image: url(5.jpeg);
+    height: 160px;
+    width: 120px;
+    background-size: contain;
+
+}
+
+.r6 {
+    background-image: url(6.webp);
+    height: 160px;
+    width: 120px;
+    background-size: contain;
+
+}
+
+.r7 {
+    background-image: url(7.webp);
+    height: 160px;
+    width: 120px;
+    background-size: contain;
+
+}
+
+.r9 {
+    background-image: url(9.webp);
+    height: 160px;
+    width: 120px;
+    background-size: contain;
+
+}
+
+.r10 {
+    background-image: url(10.webp);
+    height: 160px;
+    width: 120px;
+    background-size: contain;
+
+}
+
+.row2 {
+    background-image: url(row2.webp);
+    height: 118px;
+    width: 100%;
+    background-size: contain;
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.r11 {
+    background-image: url(11.webp);
+    height: 240px;
+    width: 200px;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: contain;
+}
+
+.r22 {
+    background-image: url(22.webp);
+    height: 240px;
+    width: 200px;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: contain;
+}
+
+.r33 {
+    background-image: url(33.webp);
+    height: 240px;
+    width: 200px;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: contain;
+}
+
+.r44 {
+    background-image: url(44.jpg);
+    height: 240px;
+    margin: 0;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.r55 {
+    background-image: url(55.jpg);
+    height: 240px;
+    margin: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    width: 200px;
+    background-size: contain;
+}
+
+.r66 {
+    background-image: url(66.webp);
+    height: 240px;
+    width: 200px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.last {
+    background-image: url(last.webp);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    margin-top: 0;
+}
+
+.reg {
+    height: 200px;
+    width: 100%;
+    color: #696e79;
+    background-color: #f5f5f6;
+    text-align: left;
+}
+
+.register {
+    align-items: center;
+    justify-content: center;
+    text-align: bottom;
+    display: flex;
+}
+
+.reg1 {
+    text-align: center;
+    justify-content: center;
+    align-items: right;
+    height: 200px;
+    width: 100%;
+    color: #696e79;
+    background-color: #f5f5f6;
+    display: flex;
+
+}
+
+.copyright {
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    justify-content: center;
+    color: #696e79;
+    background-color: #f5f5f6
+}
+
+.ll {
+    background-image: url(l1.png);
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+span {
+    color: #282c3f;
+    font-weight: 700;
+}
